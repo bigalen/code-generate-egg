@@ -10,16 +10,19 @@ module.exports = config = {
     },
     scheme: {
         phone: {
+            required: true,
             type: "String"
         },
         gesturePwd: {
             type: "String"
         },
         avatar: {
+            required: true,
             type: "String",
             default: ''
         },
         username: {
+            required: true,
             type: "String",
         },
         protocol: {
@@ -28,6 +31,7 @@ module.exports = config = {
             default: true
         },
         createTime: {
+            required: true,
             type: "String"
         },
         coin: {

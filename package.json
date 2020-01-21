@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "codemaker": "^0.21.1"
+    "codemaker": "^0.21.1",
+    "mockjs": "^1.1.0",
+    "moment": "^2.24.0",
+    "superagent": "^5.2.1"
   }
 }
